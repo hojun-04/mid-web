@@ -28,6 +28,7 @@ export default function Header() {
                 <SignUpButton />
               </div>
             </SignedOut>
+
             <SignedIn>
               <Link
                 href='/repos'
@@ -53,6 +54,15 @@ export default function Header() {
               >
                 Dashboard-C
               </Link>
+
+              {/* ✅ 포트폴리오 페이지 추가 */}
+              <Link
+                href='/portfolio'
+                className='text-gray-300 hover:text-white mr-4'
+              >
+                Portfolio
+              </Link>
+
               <div className='text-gray-300 hover:text-white mr-4'>
                 <UserButton />
               </div>
