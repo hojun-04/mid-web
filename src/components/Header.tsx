@@ -16,7 +16,7 @@ export default function Header() {
         <div className='flex items-center justify-between container'>
           <div className='flex items-center font-bold'>
             <Link href='/'>
-              <div className='text-lg text-white'>Clerk App</div>
+              <div className='text-lg text-white'>Portfolio</div>
             </Link>
           </div>
           <div className='flex items-center font-bold'>
@@ -54,15 +54,12 @@ export default function Header() {
               >
                 Dashboard-C
               </Link>
-
-              {/* ✅ 포트폴리오 페이지 추가 */}
               <Link
                 href='/portfolio'
                 className='text-gray-300 hover:text-white mr-4'
               >
                 Portfolio
               </Link>
-
               <div className='text-gray-300 hover:text-white mr-4'>
                 <UserButton />
               </div>
